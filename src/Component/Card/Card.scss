@@ -1,0 +1,14 @@
+.card{
+    height: 25vh;
+    border-radius: 5px;
+    // border: 2px solid mediumseagreen;
+    // color: mediumseagreen;
+    margin: 0 10px 5px 5px;
+    // padding: 0.2rem;
+    box-sizing: border-box ;
+    transition : 0.2s;
+    cursor: pointer;
+    &:hover{
+        transform: translateY(-5px) scale(1.05) ;
+    }
+}
