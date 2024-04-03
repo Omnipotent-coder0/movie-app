@@ -16,7 +16,7 @@ function Row({title, type}) {
   },[type])
 
   return (
-    <div>
+    <div className='my-6'>
         <p className="title">{title}</p>
         <div className="row">
           {content.map((item, index)=>(

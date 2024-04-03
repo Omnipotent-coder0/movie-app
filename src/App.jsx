@@ -4,10 +4,9 @@ import Home from "./Screens/Home/Home";
 import Header from "./Component/Header/Header";
 import Footer from "./Component/Footer/Footer";
 import axios from "axios";
-import {REACT_APP_API_KEY, REACT_APP_URL} from "../config"
 
-const api = REACT_APP_API_KEY;
-const url = REACT_APP_URL;
+const api = import.meta.env.VITE_APP_API_KEY;
+const url = import.meta.env.VITE_APP_URL;
 
 export async function getResponse(type){
   console.log(`${type} : ${url}${type}${api}`)
